@@ -10,6 +10,7 @@ This repository contains code for Machine Learning (ML) prediction using various
 5. Naive Bayes
 6. Support Vector Machine (SVM)
 7. Decision Tree
+8. XGBoost
 
 ### Dataset Information:
 Normalize CountMatrix data was used in this code. 
