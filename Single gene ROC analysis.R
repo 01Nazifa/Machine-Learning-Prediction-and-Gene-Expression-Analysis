@@ -28,7 +28,7 @@ ci_values <- ci(roc_curve)
 print(ci_values)
 
 # Plot the ROC curve
-plot(roc_curve, main = "PITX1", col = "red", lwd = 2)
+plot(roc_curve, main = "gene name", col = "red", lwd = 2)
 
 # Add AUC to the plot
 text(0.8, 0.2, paste("AUC =", round(auc(roc_curve), 2)), col = "black", cex = 1.2)
